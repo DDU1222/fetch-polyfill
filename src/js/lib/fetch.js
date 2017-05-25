@@ -61,7 +61,7 @@ export default function Fetch(url, options) {
         headers: {
           'Content-Type': 'application/json'
         },
-        credentials: 'include',
+        credentials: 'same-origin',
         cache: 'default'
       }, options),
       fetch_promise = fetch(url, myRequest)
