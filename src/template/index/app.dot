@@ -1,0 +1,75 @@
+<header>
+  <button class="get-get">get请求</button>
+  <button class="get-post">post请求</button>
+  <button class="get-timeout">超时请求</button>
+</header>
+<div class="code-container">
+  <div class="code-get">
+    <button class="next get-ajax">请求</button>
+    <p class="notice">// fetch get请求 </p>
+    <p>
+      Fetch('<span class="string">/status'</span>)
+    </p>
+    <p>.then(<span class="prams">res</span> <span class="oper">=></span> {</p>
+    <p class="tab">
+      <span class="console">console.log</span>
+      (<span class="string">'res'</span>, res);
+    </p>
+    <p>})</p>
+    <p>.catch(<span class="prams">err</span> <span class="oper">=></span> {</p>
+    <p class="tab">
+      <span class="console">console.log</span>
+      (<span class="string">'err'</span>, err);
+    </p>
+    <p>})</p>
+  </div>
+  <div class="code-post">
+    <button class="next post-ajax">请求</button>
+    <p class="notice">// fetch post请求 </p>
+    <p>
+      Fetch('<span class="string">/submit'</span>, {
+    </p>
+    <p class="tab">method: "POST",</p>
+    <p class="tab">data: {</p>
+    <p class="tab-secound">name: "chenxue"</p>
+    <p class="tab">}</p>
+    <p>})</p>
+    <p>.then(<span class="prams">res</span> <span class="oper">=></span> {</p>
+    <p class="tab">
+      <span class="console">console.log</span>
+      (<span class="string">'res'</span>, res);
+    </p>
+    <p>})</p>
+    <p>.catch(<span class="prams">err</span> <span class="oper">=></span> {</p>
+    <p class="tab">
+      <span class="console">console.log</span>
+      (<span class="string">'err'</span>, err);
+    </p>
+    <p>})</p>
+  </div>
+  <div class="code-timeout">
+    <button class="next timeout-ajax">请求</button>
+    <p class="notice">// fetch timeout请求 </p>
+    <p>
+      Fetch('<span class="string">/submit'</span>, {
+    </p>
+    <p class="tab">method: "POST",</p>
+    <p class="tab">timeout: 500,</p>
+    <p class="tab">data: {</p>
+    <p class="tab-secound">name: "chenxue"</p>
+    <p class="tab">}</p>
+    <p>})</p>
+    <p>.then(<span class="prams">res</span> <span class="oper">=></span> {</p>
+    <p class="tab">
+      <span class="console">console.log</span>
+      (<span class="string">'res'</span>, res);
+    </p>
+    <p>})</p>
+    <p>.catch(<span class="prams">err</span> <span class="oper">=></span> {</p>
+    <p class="tab">
+      <span class="console">console.log</span>
+      (<span class="string">'err'</span>, err);
+    </p>
+    <p>})</p>
+  </div>
+</div>

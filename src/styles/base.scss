@@ -1,0 +1,75 @@
+html, body, div, span, h1, h2, h3, h4, h5, h6, p,
+a, em, img, small, strong, b, i, dl, dt, dd, ol, ul, li,
+fieldset, form, label, table, caption, tbody, tfoot, thead,
+tr, th, td, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  -webkit-tap-highlight-color: transparent;
+}
+footer, header, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+  font-family: -apple-system, "PingFang SC","Helvetica Neue",STHeiti,"Microsoft Yahei",Tahoma,Simsun,sans-serif;
+  background: #ebeced;
+  box-sizing: content-box;
+}
+ol, ul {
+  list-style: none;
+  text-decoration: none;
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+a{
+  text-decoration: none;
+  color: inherit;
+}
+input, button, select, textarea {
+  outline : none;
+  border: none;
+  -webkit-appearance:none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+input::-webkit-input-placeholder { /* WebKit browsers */
+  font-size: 12px;
+  color: #9B9B9B;
+}
+
+input:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+  font-size: 12px;
+  color: #9B9B9B;
+}
+
+input::-moz-placeholder { /* Mozilla Firefox 19+ */
+  font-size: 12px;
+  color: #9B9B9B;
+}
+
+input:-ms-input-placeholder { /* Internet Explorer 10+ */
+  font-size: 12px;
+  color: #9B9B9B;
+}
+/*隐藏右侧箭头*/
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+input, button, select, textarea {
+  outline : none;
+  border: none;
+  -webkit-appearance:none;
+}
